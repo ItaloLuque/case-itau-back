@@ -77,44 +77,46 @@ Copiar código
 }
 
 
-Funcionalidades
+
+## Funcionalidades
 A funcionalidade principal do projeto é validar se uma senha atende aos seguintes critérios:
+- Nove ou mais caracteres
+- Ao menos 1 número
+- Ao menos 1 letra minúscula
+- Ao menos 1 letra maiúscula
+- Ao menos 1 caractere especial (!@#$%^&*()-+)
+- Não possuir caracteres repetidos dentro do conjunto
 
-Nove ou mais caracteres
-Ao menos 1 número
-Ao menos 1 letra minúscula
-Ao menos 1 letra maiúscula
-Ao menos 1 caractere especial (!@#$%^&*()-+)
-Não possuir caracteres repetidos dentro do conjunto
-Contribuição
+## Contribuição
 Contribuições são bem-vindas! Para contribuir, por favor, siga as etapas abaixo:
+1. Faça um fork do projeto.
+2. Crie uma nova branch: `git checkout -b minha-nova-feature`
+3. Faça suas modificações e commit: `git commit -m 'Adiciona nova feature'`
+4. Envie para a branch original: `git push origin minha-nova-feature`
+5. Crie um pull request.
 
-Faça um fork do projeto.
-Crie uma nova branch: git checkout -b minha-nova-feature
-Faça suas modificações e commit: git commit -m 'Adiciona nova feature'
-Envie para a branch original: git push origin minha-nova-feature
-Crie um pull request.
-Licença
+## Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
-Considerações Finais
+## Considerações Finais
 O projeto foi desenvolvido com foco em Clean Code, princípios SOLID, e boas práticas de desenvolvimento. As decisões de design foram tomadas para garantir a extensibilidade e manutenibilidade do código.
 
 Para dúvidas e sugestões, sinta-se à vontade para abrir uma issue ou entrar em contato.
 
-Instruções Básicas para Executar o Projeto:
+---
 
-Clone os repositórios do backend e frontend.
-Instale as dependências do backend e frontend.
-Execute o backend e o frontend.
-Acesse a aplicação em http://localhost:4200.
-Decisões e Racional:
+**Instruções Básicas para Executar o Projeto:**
+- Clone os repositórios do backend e frontend.
+- Instale as dependências do backend e frontend.
+- Execute o backend e o frontend.
+- Acesse a aplicação em `http://localhost:4200`.
 
-Utilização de Java e Spring Boot para o backend devido à robustez e familiaridade com a linguagem.
-Angular foi escolhido para o frontend por sua capacidade de criar interfaces dinâmicas e reativas.
-Testes unitários e de integração foram implementados para garantir a qualidade do código.
-O design da API segue padrões RESTful para facilitar a integração com outros sistemas.
-Premissas:
+**Decisões e Racional:**
+- Utilização de Java e Spring Boot para o backend devido à robustez e familiaridade com a linguagem.
+- Angular foi escolhido para o frontend por sua capacidade de criar interfaces dinâmicas e reativas.
+- Testes unitários e de integração foram implementados para garantir a qualidade do código.
+- O design da API segue padrões RESTful para facilitar a integração com outros sistemas.
 
-As senhas não contêm espaços em branco.
-Caracteres especiais são limitados a !@#$%^&*()-+.
+**Premissas:**
+- As senhas não contêm espaços em branco.
+- Caracteres especiais são limitados a !@#$%^&*()-+.
