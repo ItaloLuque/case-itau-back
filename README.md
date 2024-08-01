@@ -122,3 +122,8 @@ Para dúvidas e sugestões, sinta-se à vontade para abrir uma issue ou entrar e
 **Premissas:**
 - As senhas não contêm espaços em branco.
 - Caracteres especiais são limitados a !@#$%^&*()-+.
+
+**VÍDEO RODANDO APLICAÇÃO**
+
+https://github.com/user-attachments/assets/c09f3b44-a156-4f29-8cf6-3a75451e2e72
+
