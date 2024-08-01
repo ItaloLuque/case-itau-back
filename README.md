@@ -18,37 +18,37 @@ Esse projeto é um validador de senha. Ele verifica se uma senha é válida conf
 ## Instalação
 ### Backend
 1. **Clone o repositório:**
-    ```sh
+    ```
     git clone https://github.com/seu-usuario/case-itau-back.git
     ```
 2. **Navegue até o diretório do backend:**
-    ```sh
+    ```
     cd case-itau-back
     ```
 3. **Instale as dependências com Maven:**
-    ```sh
+    ```
     mvn clean install
     ```
 4. **Execute a aplicação:**
-    ```sh
+    ```
     mvn spring-boot:run
     ```
 
 ### Frontend
 1. **Clone o repositório:**
-    ```sh
+    ```
     git clone https://github.com/seu-usuario/case-itau-front.git
     ```
 2. **Navegue até o diretório do frontend:**
-    ```sh
+    ```
     cd case-itau-front
     ```
 3. **Instale as dependências com npm:**
-    ```sh
+    ```
     npm install
     ```
 4. **Execute a aplicação:**
-    ```sh
+    ```
     ng serve
     ```
 
@@ -66,17 +66,19 @@ Após instalar e iniciar o frontend, ele estará disponível em `http://localhos
 
 ### Exemplo de Uso
 Para validar uma senha, faça uma requisição POST para `http://localhost:8080/api/validate-password` com o seguinte payload:
-```json
-
-A resposta será:
-
-json
-Copiar código
 {
-  "isValid": true
+"password": "AbTp9!fok"
 }
 
+css
+Copiar código
+A resposta será:
+{
+"isValid": true
+}
 
+less
+Copiar código
 
 ## Funcionalidades
 A funcionalidade principal do projeto é validar se uma senha atende aos seguintes critérios:
